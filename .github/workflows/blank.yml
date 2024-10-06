@@ -30,7 +30,6 @@ jobs:
           git config --local user.email "${{ secrets.GIT_USERNAME }}"
           git config --local user.name "${{ secrets.GIT_EMAIL }}"
           mkdir -p ${{github.workspace}}/docs/
-          mv -f *.midi ${{github.workspace}}/docs/
           mv -f *.pdf ${{github.workspace}}/docs/
           mv -f *.png ${{github.workspace}}/docs/
           git add ${{github.workspace}}/docs/
