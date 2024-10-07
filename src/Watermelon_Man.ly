@@ -33,28 +33,41 @@
     
     \repeat volta 2 {
   
-     \bar ".|:" g''1~
-    g''4 g'8 g'8 d''8 e''4 g'8~
+     \bar ".|:" 
+    
+    f''1~
+    f''4 g'8 g'8 d''8 e''4 g'8~
     g'1~
     g'2 r2
+
+    \break
 
     g''1~
     g''4 g'8 g'8 d''8 e''4 g'8~
     g'1~
     g'2 r2
 
+    \break
+
     r4 d''8 d''8 a''4 b''4
     bes''8 a''8 g''8 e''8 g''4 a''4
     r4 d''8 d''8 a''4 b''4
     bes''8 a''8 g''8 e''8 d''4 e''4
+
+    \break
 
     r4 d''8 d''8 a''4 bes''4
     g''4 g'8 g'8 d''8 e''4 g'8~
 
      \volta 1 {
         g'1
-        r1 \bar ":|."
+        r1 
+        
+        \bar ":|."
     }
+
+    \break
+
     \volta 2 {
         g'1~
         g'1~
@@ -63,6 +76,7 @@
 
     }
 
+    \bar "|."
 
     }
 }
