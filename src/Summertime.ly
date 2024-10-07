@@ -17,7 +17,8 @@
 <<
 \chords {
     \set noChordSymbol = ""
-    r1 b2:m fis:7 b:m fis:7 b:m fis:7 b:m7 b:7
+    \partial 2 r2 
+    b2:m fis:7 b:m fis:7 b:m fis:7 b:m7 b:7
     e1:m r r2 cis:7 fis1:7 b2:m fis:7 b:m fis:7 b:m fis:7 e:m7 a:7 d b:m e:m7 fis:7 b:m r r fis:7
 
 }
@@ -27,7 +28,7 @@
 \new Staff \relative { 
 
     \key d \major
-    r2 fis''4 d 
+    \partial 2 fis''4 d 
     \bar "[|:" 
     fis1~
     fis4 e8 d e fis e4

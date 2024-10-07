@@ -11,6 +11,7 @@
     \context {
       \Score
       \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/16)
+
     }
 }
 
@@ -51,8 +52,10 @@
 }
 
 \new Staff \relative {
+
     \key g \major
 
+    \repeat segno 2 {    
     c''8 c c c b a4.
     b8 d b g~ g4 r
     c8 c c c b g a g~
@@ -97,6 +100,9 @@
     \tuplet 3/2 { g8  b g~ } g8 g \tuplet 3/2 { f8 b f~ } f8 f
     e g a g b g g e 
     g g a g~ g4 r
+    \fine
+    }
+   
 
 }
 
