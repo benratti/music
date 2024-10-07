@@ -67,7 +67,7 @@ improG = {  }
     }
 
     \break
-    
+
     \volta 2 {
         g'1~
         g'1~
@@ -114,7 +114,7 @@ improG = {  }
     c''4 bes'8 g' c''4 r4
 
     d''4 c''8 a' d''2
-    c''4 g''8 f'' d'' c'' bes' g'
+    c''4-^ g''8 f'' d'' c'' bes' g'
 
     \volta 1 {
       f'4 g'2.
