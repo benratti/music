@@ -19,7 +19,7 @@ improG = {  }
 <<
 \chords {  
      \set noChordSymbol = ""
-    g1:7.9+ r r r c:9 r g:7.9+ r d:9 c:9 d:9 c:9 d:9 c:9 g:7.9+ r bes:13
+    g1:7.9+ r r r c:9 r g:7.9+ r d:9 c:9 d:9 c:9 d:9 c:9 g:7.9+ r 
  }
 
 \new Staff \with {
@@ -61,20 +61,11 @@ improG = {  }
     r4 d''8 d''8 a''4 bes''4
     g''4 g'8 g'8 d''8 e''4 g'8~
 
-     \volta 1 {
-        g'1
-        r1 \bar ":|."
-    }
+    g'1
+    r1 \bar ":|."
 
-    \break
 
-    \volta 2 {
-        g'1~
-        g'1~
-        g'1~
-        g'1
 
-    }
 
 
     }
@@ -116,22 +107,66 @@ improG = {  }
     d''4 c''8 a' d''2
     c''4-^ g''8 f'' d'' c'' bes' g'
 
-    \volta 1 {
-      f'4 g'2.
-      r1
-    }
 
-    \volta 2 {
-        g'1~
-        g'1~
-        g'1~
-        g'1
+    f'4 g'2.
+    r1
+  
 
-    }
 
     \bar "|."  
 
     }
+}
+
+>>
+
+
+
+<<
+\chords {  
+     \set noChordSymbol = ""
+    g1:7.9+ r r r c:9 r g:7.9+ r d:9 c:9 d:9 c:9 d:9 c:9 g:7.9+ r 
+ }
+
+\new Staff \with {
+  instrumentName = \markup {
+    \column { "Solo"
+    }
+  }
+  
+} \relative 
+
+{
+
+    \key d \major
+    g''2 bes8[ g] bes[ g]~
+    g2 r2
+    g8[ f] g[ f] d4 c4 
+    b g2 r4 
+
+    \break
+
+    c'2 bes8[ c] d[ c]~
+    c2 r2
+    g8[ f] g[ f] d4 c4
+    b d8 g8~ g4 r4
+
+    \break
+
+    d4 a'2.
+    bes4 g2.
+    d4 c8 d~ d4 a'
+    bes g r f 
+
+    \break
+
+    d r a'8 bes g4~
+    g4 c8[ bes] g[ f] d[ c] 
+    b4 d8 g~ g2
+    r1
+
+    \bar "|."  
+
 }
 
 >>
