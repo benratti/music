@@ -13,6 +13,7 @@
 }
 
 \new Staff \relative {
+    \tempo 4 = 87
     \key c \major
     \time 4/4
 
