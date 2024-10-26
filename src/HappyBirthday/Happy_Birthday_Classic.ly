@@ -12,7 +12,6 @@
     }
 }
 
-
 \new Staff \relative {
     \key c \major
     \time 3/4
