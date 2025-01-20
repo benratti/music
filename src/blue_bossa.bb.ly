@@ -57,7 +57,6 @@
     aes4 g8 c~ c g bes4~
     bes1
 
-
   \break
 
     bes4 a8 bes~ bes2
