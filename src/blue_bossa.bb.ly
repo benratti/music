@@ -20,9 +20,9 @@
     d1:m7 r g:m7 r
     e:m7.5-  a:7 d:m7 r
     f:m7 bes:7  ees:7 r
-    e:m7.5- a:7 d:m7  e2.:m7.5- a4:7 d:m7 r
+    e:m7.5- a:7 d:m7  e2.:m7.5- a4:7 
+    e1:m7.5- a:7 d:m7 r
     
-
  }
 
 \new Staff \with {
@@ -60,19 +60,20 @@
 
   \break
 
-  \repeat volta 2 {
-        bes4 a8 c8~ c2
-        bes4 a8 c8~ c4. bes8
-        
-        \volta 1 {
-            a1~
-            a2. a4
-        }
-        \volta 2 {
-            a1~
-            a1
-        }
-  }
+    bes4 a8 c8~ c2
+    bes4 a8 c8~ c4. bes8            
+    a1~
+    a2. a4
+
+  \break
+
+    bes4 a8 c8~ c2
+    bes4 a8 c8~ c4. bes8
+    a1~
+    a1
+  
+  \bar "|."
+
 
 }
 
