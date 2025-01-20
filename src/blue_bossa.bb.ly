@@ -18,8 +18,11 @@
      \set noChordSymbol = ""
      \set minorChordModifier = \markup { "-" }
     d1:m7 r g:m7 r
-    e:m7.5-
-   
+    e:m7.5-  a:7 d:m7 r
+    f:m7 bes:7  ees:7 r
+    e:m7.5- a:7 d:m7  e2.:m7.5- a4:7 d:m7 r
+    
+
  }
 
 \new Staff \with {
@@ -31,12 +34,11 @@
   
 } \relative {
   
-  \tempo 4 = 100
   \key f \major
   \time 4/4
 
 
-  \bar ".|:"
+  \bar ".|"
 
     a''4. g8 f8 e4 d8~
     d2. c4
@@ -45,31 +47,32 @@
 
   \break
 
-    g4. f8 e d4 c8~
-    c2. bes4
-    a2 g'4. f8~
-    f1 
+  g4. f8 e d4 c8~
+  c2. bes4
+  a2 g'4. f8~
+  f1 
+
+  \break
+  f4. ees8 d8 c4 bes8~
+  bes2. aes4
+  aes4 g8 c8~ c8 g8 bes4~
+  bes1
 
   \break
 
-    f4. ees8 d c4 bes~
-    bes2. aes4
-    aes4 g8 c~ c g bes4~
-    bes1
-
-  \break
-
-    bes4 a8 bes~ bes2
-    bes4 a8 c~ c4. bes8
-    a1~
-    a2. a4
-   
-
-
-
-
-
-  \bar ":|."
+  \repeat volta 2 {
+        bes4 a8 c8~ c2
+        bes4 a8 c8~ c4. bes8
+        
+        \volta 1 {
+            a1~
+            a2. a4
+        }
+        \volta 2 {
+            a1~
+            a1
+        }
+  }
 
 }
 
