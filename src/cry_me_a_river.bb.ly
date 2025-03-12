@@ -68,7 +68,7 @@ theme = \relative c'' {
     g1
 
     des'8 c bes c des c~ c4
-    c4 a8 f~ f2
+    c8 e f g~ g4 r4
     r4 g8 ges f ees c bes
     ees2 r2
 
