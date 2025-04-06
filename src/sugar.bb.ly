@@ -68,7 +68,7 @@ theme = \relative c'{
 
 
 \chords {  
-    \set chordNameExceptions = #chExceptions
+
     \set noChordSymbol = ""
     r1 d:m7 e2:m7.5- a:maj7 d1:m7.9 
     a1:maj7 d:m7 d:m7 d:m7.9 a:maj7
