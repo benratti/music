@@ -35,7 +35,7 @@ theme = \relative c'{
 
     a4. a8 c d4 f8~
     f4. d8 \tuplet 3/2{ f16 g f } d8 c d~
-    d4. c8 \tuplet 3/2{ d16 e d } d8 a c~
+    d4. c8 \tuplet 3/2{ d16 e d } c8 a c~
     c4. a8 \tuplet 3/2{ c16 d c } a8 g a~
     
     \break
