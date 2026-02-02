@@ -66,15 +66,15 @@
 
   \break
 
-  a4 a8 a \tuplet 3/2 { a4 g fis}
-  g4 g8 g \tuplet 3/2 { g4 fis e}
+  a4 a8 a \tuplet 3/2 { a4 g fis }
+  g4 g8 g \tuplet 3/2 { g4 fis e }
   fis4 fis8 fis g a4 b8~
   b2. r4
 
   \break
 
-  a4 a8 a \tuplet 3/2 { a4 g fis}
-  g4 g8 g \tuplet 3/2 { g4 fis e}
+  a4 a8 a \tuplet 3/2 { a4 g fis }
+  g4 g8 g \tuplet 3/2 { g4 fis e }
   fis4 fis8 fis a g4 fis8~
   fis2. r4
 
